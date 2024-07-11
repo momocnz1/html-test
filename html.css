@@ -1,0 +1,774 @@
+body{
+    margin: 0 10%;
+}
+
+/* @media (max-width: 600px) {
+    nav ul li {
+        margin: 0 0.5rem ;
+    }
+} */
+
+.logo img{
+    width: 80%;
+    margin: 0.5em 0;
+
+}
+.Buttombanner{
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(24.25deg, #0E044B 3.94%, #2C309B 67.69%, #89E8FD 128.26%);
+    color: #BAD0F2;
+}
+.Buttom_banner{
+    padding: 2% 0;
+    background: linear-gradient(183.65deg, #0B0F17 -12.4%, rgba(0, 13, 56, 0) 230.51%);
+}
+.Buttom_banner p{
+    font-size:26px;
+}
+.Buttom_banner p span{
+    font-size:28px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.Buttombanner p{
+    margin: 1% 0;
+    font-size: 22px;
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+a button{
+    width: 300px;
+    height: 57.88px;
+    font-size: 26px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Noto Sans Thai', sans-serif;
+    background: linear-gradient(115.71deg, #0BB64C 2.75%, #27D96B 79.77%);
+}
+.Banner-content{
+    padding: 6% 0 2% 4%;
+}
+.Banner-BG{
+    background-image: url(./img/bg_zone1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.Title img{
+    width: 50%;
+    margin: 0 0 2% 0;
+}
+.Group1 img{
+    width: 50%;
+    margin: 2% 0 2% 0;
+}
+.Content{
+    width: 80%;
+    margin: 3% 0 ;
+    font-family: 'Noto Sans Thai', sans-serif;
+    color: #FFFFFF;
+}
+.Content p{
+    margin: 0.5em 0;
+    font-weight: bold; 
+    font-size: 32px
+}
+.Content span{
+    font-size: 21px; 
+    color:#BAD0F2;
+}
+
+.Title2{
+    font-family:'Noto Sans Thai',sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px
+}
+.Title2 p{
+    font-family:'Noto Sans Thai',sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0.01em;
+    color: #1D1A73;
+    margin: 2% 0;
+}
+.Green-text{
+    color: #0CC553;
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600; 
+}
+.rhombus-bullet ul {
+    list-style-type: none;
+    line-height: 30px;
+    width: 70%;
+}
+.rhombus-bullet ul li {
+    position: relative; 
+    text-indent: -25px;
+}
+.rhombus-bullet ul li:before {
+    content: ''; 
+    display: inline-block; 
+    background: url('./img/rhombus.png') no-repeat center center; 
+    background-size: contain; 
+    width: 10px; 
+    height: 10px; 
+    margin-right: 2%;
+    transform: translateY(-50%); 
+}
+.main_speaker{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background: url('./img/bg_zone.png') no-repeat center center; 
+    background-size: 100% 100%;
+}
+.Title3{
+    display: inline-flex;
+    margin: 4% 0 4% 4%;
+}
+.Title3 img{
+    padding-top: 1%;
+    width: 8px;
+    height: 44px;
+}
+.Title3 div p {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.4px solid;
+    border-image-source: linear-gradient(180deg, #AACCFF 0%, rgba(193, 207, 255, 0) 48.05%, #DAE2FF 97.11%);
+    width: 250px;
+    margin: 0%;
+    padding: 0 3%;
+}
+.Main-Speaker{
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);gap: 10px;
+    padding-left: 3%;
+}
+.Personnel{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3%;
+}
+.hexagon {
+    width: 50%;
+    height: 60%;
+    overflow: hidden;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 0 auto; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hexagon img {
+    width: 100%;
+    height: 100%;
+    object-fit: 100% 100%;
+    opacity: 1;
+}
+.name{
+    font-family:'Noto Sans Thai',sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 12px;
+    color:#1F2883;
+}
+.position{
+    font-family:'Noto Sans Thai',sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #359EFF;
+}
+.from{
+    font-family:'Noto Sans Thai',sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #262E3F;
+}
+.schedule{
+    width: 90%;
+    height: 100%;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border-radius: 10px 10px ;
+    margin: 3% auto;
+    border: 1px solid #FFFFFF;
+    background: #EEF6FF;
+    font-family:'Noto Sans Thai',sans-serif;
+}
+.Title4{
+    display: inline-flex;
+    margin: 2% 0 0 2%;
+}
+.Title4 img{
+    padding-top: 1%;
+    width: 8px;
+    height: 44px;
+}
+.Title4  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.4px solid;
+    border-image-source: linear-gradient(180deg, #AACCFF 0%, rgba(193, 207, 255, 0) 48.05%, #DAE2FF 97.11%);
+    width: 250px;
+    margin: 0%;
+    padding: 0 5%;
+}
+hr {
+    border: none;
+    border-top: 4px solid #FFFFFF;
+}
+.schedule-content p{
+    width: 205px;
+    height: 30px;
+    border-radius: 55px;
+    opacity: 0px;
+    background: #0CC553;
+    text-align: center;
+    padding: 5px 5px 0 5px;
+    margin-left: 2%;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Noto Sans Thai",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.interval{
+    font-family: "Noto Sans Thai",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #C8FFD4;
+}
+.Schedule_Content{
+    border-top: 4px  solid #FFFFFF;
+    border-bottom: 4px solid #FFFFFF; 
+}
+.schedule-content2{
+    margin-left: 2%;
+
+}
+.schedule-content2 p{
+    width: 170px;
+    height: 30px;
+    border-radius: 55px;
+    opacity: 0px;
+    background: #0CC553;
+    text-align: center;
+    padding: 2px 5px 0 2px;
+    margin-left: 2%;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: "Noto Sans Thai",sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Schedule_Content2{
+    display: flex; 
+    align-items: center;
+}
+.Schedule_Content2 .schedule-content2 {
+    margin-right: 20px; 
+}
+.location{
+    width: 90%;
+    height: 100%;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin: 3% auto;
+    border-radius: 10px 10px ;
+    background: linear-gradient(230.87deg, #5D97E3 -7.19%, #0C2192 66.6%);
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.Container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.svg-container{
+    padding: 0 4%;
+    width: 62px; 
+    height: 62px;
+    margin: 0 0 12% 0 ;
+}
+.text-container {
+    width: 100%;
+    height: 100%;
+    margin: 0 0 3% 0;
+    font-family: "Noto Sans Thai",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+    
+}
+
+.text-container p{
+    margin:0 ;
+}    
+.text-container span{
+    font-family: "Noto Sans Thai",sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+}
+
+.button_map button{
+    width: 174px;
+    height: 38px;
+    gap: 0px;
+    border: none;
+    border-radius: 45px;
+    opacity: 0px;
+    margin: 5% 0 0 0 ;
+    background: #359EFF;
+    font-family: "Noto Sans Thai",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #fff;
+    
+}
+.grandBallroom{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    margin: 2% 2% 2% 0  ;
+}
+.grandBallroom img{
+    width: 100%;
+    height: auto;
+}
+
+.forExhibitors{
+    background-image: url('./img/border.png'); 
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    padding: 2%; 
+    margin: 2%; 
+}
+.awards p span{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 10%;
+    letter-spacing: -0.01em;
+    color: #6E7788;
+}
+.awards p {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 10%;
+    letter-spacing: -0.01em;
+    color: #262E3F;
+
+}
+.award p {
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #6F7788;
+
+}
+.ForExhibitors{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    margin: 2% 0 0 5% ;
+    
+}
+.ForExhibitors div svg{
+    height: 88px;
+}
+.Title5 p {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    background: linear-gradient(111.88deg, #0E044B -24.36%, #2C309B 66.53%, #89E8FD 142.57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 0.4px solid;
+    border-image-source: linear-gradient(180deg, #AACCFF 0%, rgba(193, 207, 255, 0) 48.05%, #DAE2FF 97.11%);
+    margin: 0%;
+    padding: 0 5%;
+}
+.Reserve{
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(360deg, #dbf2ff 2.78%, rgba(255, 255, 255, 0.96) 62.31%, rgba(255, 255, 255, 0) 83.81%);
+}
+.Reserve p{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #0C2292;
+}
+.Reserve p span{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #6E7788;
+}
+.reserve p{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #262E3F;
+}
+.button1{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    width: 400px;
+    margin:0 0 3% 0; 
+    box-shadow: 0px 8px 16px 0px #0ABA113D;
+}
+.contact{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 11px;
+    color: #6E7788; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+.contact p {
+    margin: 2% 0 2% 0;
+    padding:0 10px 0 0; 
+}
+.contact svg {
+    margin:10px; 
+}
+.contact span{
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #3138A0;
+}
+.contact span span {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+}
+
+
+@media (max-width: 1200px) {
+    .Title3 div p {
+        font-size: 32px;
+    }
+    .hexagon {
+        width: 150px;
+        height: 170px; 
+    }
+    .text-container{
+        margin: 3% 0 0 0;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .text-container span{
+        font-size: 26px;
+    }
+    .svg-container{
+        margin: 0 0 35% 0 ;
+    }
+    .grandBallroom{
+        justify-content: center;
+        display: flex;
+        margin: 4% 8%;
+    }
+    .awards p span{
+        font-size: 18px;
+    }
+    .awards p {
+        font-size: 18px;
+    }
+    .award p {
+        font-size: 16px;
+    }
+    .button1{
+        font-size: 22px;
+        width: 300px;
+   }
+    .contact{
+        font-size: 18px;
+    }
+    .contact p {
+        width: 40%;
+        margin: 2% 0 2% 0;
+        padding:0 2px 0 0;
+    }
+    .contact svg {
+        margin:10px 10px; 
+    }
+    .contact span{ 
+        font-size: 18px;
+    }
+    .contact span span {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    .Content{
+        width: 70%;
+    }
+    .Content span{
+        font-size: 18px;
+    }
+    .text-container{
+        width: 80%;
+        margin: 5% 3% 10% 0;
+        font-size: 24px;
+        line-height: 30px;
+    }
+      
+    .text-container span{
+        font-size: 24px;
+    }
+    
+    .button_map button{
+        width: 144px;
+        height: 38px;
+        gap: 0px;
+        border: none;
+        border-radius: 40px;
+        opacity: 0px;
+        margin: 5% 10% 0 0 ;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .svg-container{
+        margin: 0 0 40% 0 ;
+    }
+    .grandBallroom{
+        justify-content: center;
+        display: flex;
+        margin: 4% 5%;
+    }
+    .Main-Speaker {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .awards p span{
+        font-size: 16px;
+    }
+    .awards p {
+        font-size: 16px;
+    }
+    .award p {
+        font-size: 16px;
+    }
+    .Reserve p{
+        font-size: 24px;
+    }
+    .Reserve p span{
+        font-size: 22px;
+    }
+    .reserve p{
+        font-size: 20px;
+    }
+    .button1{
+        font-size: 22px;
+        width: 300px;
+   }
+    .contact{
+        font-size: 20px;
+    }
+    .contact p {
+        width: 40%;
+        margin: 2% 0 2% 0;
+        padding:0 1px 0 0;
+    }
+    .contact svg {
+        margin:10px 8px; 
+    }
+    .contact span{ 
+        font-size: 20px;
+    }
+    .contact span span {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 700px) {
+   .content p{ 
+    font-size: 20px
+   }
+   .Content span{
+    font-size: 18px; 
+    }
+    .Buttombanner p{
+        font-size: 16px; 
+        margin: 2% 0;
+    }
+    .Buttombanner p span{
+        font-size: 21px;
+    }
+    a button{
+        width: 200px;
+        height: 47.88px;
+        font-size: 20px;
+        margin: 2%;
+    }
+    .Title2{
+        font-size: 18px;
+    }
+    .Title2 p{
+        font-size: 28px; 
+    }
+    .rhombus-bullet ul {
+        width: 90%;
+    }
+    .Green-text{
+        font-size: 28px;
+    }
+    .Main-Speaker {
+        grid-template-columns: 1fr;
+    }
+    .hexagon {
+        width: 100px;
+        height: 122px; 
+    }
+    .from{
+        font-size: 15px;
+    }
+    .Title3 div p {
+        font-size: 26px;
+    } 
+    .Title4  p {
+        font-size: 30px;
+    }
+    .schedule-content p{
+        width: 175px;
+        height: 28px;
+        border-radius: 50px;
+       font-size: 16px;
+    }
+    .interval{
+        font-size: 16px;
+    }
+    .Container{
+        flex-direction: column; 
+    }
+    .text-container{
+        width: 80%;
+        margin: 5% 3% 2% 0;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .text-container span{
+        font-size: 26px;
+    }
+    .button_map button{
+        width: 144px;
+        height: 38px;
+        gap: 0px;
+        border: none;
+        border-radius: 40px;
+        opacity: 0px;
+        margin: 5% 10% 0 0 ;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .svg-container{
+        margin: 0 0 20% 0 ;
+    }
+    .grandBallroom{
+        justify-content: center;
+        display: flex;
+        margin: 4% 3%;
+    }
+    .Title5 p {
+        font-size: 28px;
+    }
+    .awards p span{
+        font-size: 10px;
+    }
+    .awards p {
+        font-size: 13px;
+    }
+    .award p {
+        font-size: 14px;
+    }
+    .Reserve p{
+        font-size: 22px;
+    }
+    .Reserve p span{
+        font-size: 18px;
+    }
+    .reserve p{
+        font-size: 16px;
+    }
+    .button1{
+        font-size: 22px;
+        width: 200px;
+   }
+    .contact{
+        font-size: 14px;
+    }
+    .contact p {
+        width: 45%;
+        margin: 1% 0 1% 0;
+        padding:0 1px 0 0;
+    }
+    .contact svg {
+        margin:10px 8px; 
+    }
+    .contact span{ 
+        font-size: 12px;
+    }
+    .contact span span {
+        font-size: 12px;
+    }
+    
+}
+
