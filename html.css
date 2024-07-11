@@ -158,7 +158,6 @@ a button{
     padding-left: 3%;
 }
 .Personnel{
-    
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -285,6 +284,7 @@ hr {
 .Schedule_Content2{
     display: flex; 
     align-items: center;
+    justify-content: flex-start;
 }
 .Schedule_Content2 .schedule-content2 {
     margin-right: 20px; 
@@ -770,5 +770,195 @@ hr {
         font-size: 12px;
     }
     
+}
+@media (max-width: 400px) {
+    .Content p{
+        margin: 0.5em 0;
+        font-weight: bold; 
+        font-size: 20px
+    }
+    .Title img{
+        width: 90%;
+        margin: 0 0 2% 0;
+    }
+    .Group1 img{
+        width: 80%;
+        margin: 2% 0 2% 0;
+    }
+    .Content span{
+        font-size: 14px; 
+    }
+    .Buttom_banner p{
+        font-size:14px;
+    }
+    .Buttom_banner p span{
+        font-size:14px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    .Buttombanner p{
+        margin: 1% 0;
+        font-size: 10px;
+        font-family: 'Noto Sans Thai', sans-serif;
+    }
+    a button{
+        width: 110px;
+        height: 27.88px;
+        font-size: 14px;
+   }
+    .Title2{
+        font-family:'Noto Sans Thai',sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 30px
+    }
+    .Title2 p{
+        font-family:'Noto Sans Thai',sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0.01em;
+        color: #1D1A73;
+        margin: 2% 0;
+    }
+    .Green-text{
+        color: #0CC553;
+        font-family: "Poppins", sans-serif;
+        font-size: 18px;
+        font-weight: 600; 
+    }
+    .Title3 img{
+        padding-top: 1%;
+        width: 8px;
+        height: 34px;
+    }
+    .Title3 div p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .hexagon img {
+        width: 100%;
+        height: 100%;
+        object-fit: 100% 100%;
+        opacity: 1;
+    }
+    .name{
+        font-size: 14px;
+    }
+    .position{
+        font-size: 12px;
+    }
+    .from{
+        font-size: 11px;
+    }
+    .Schedule_Content2 {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 3%; 
+    }
+    .Title4 img{
+        padding-top: 1%;
+        width: 8px;
+        height: 34px;
+    }
+    .Title4  p {
+        font-size: 24px;
+    }
+    .schedule-content2 {
+        margin-right: 0;
+        margin-bottom: 1%;
+    }
+    .Schedule_Content2 div p {
+        width: 135px;
+        font-size: 14px;
+        margin-left: 5%; 
+        padding-top: 5%;
+        margin-top: 10%;
+    }
+    .Schedule_Content2 p {
+        width: 195px;
+        height: 30px;
+        font-size: 14px;
+        margin-left: 10%;
+        margin-top: 2%;
+    }
+    .schedule-content p{
+        width: 145px;
+        height: 30px;
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 13px;
+    }
+    .schedule{
+        padding-right: 4%;
+        font-size: 14px;
+    }
+    .interval{
+        font-size: 14px;
+    }
+    .svg-container{
+        margin: 0 0 30% 0 ;
+    }
+    .button_map button{
+        width: 144px;
+        height: 28px;
+        font-size: 12px;
+    }
+    .text-container{
+        width: 80%;
+        margin: 5% 3% 2% 0;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .text-container span{
+        font-size: 18px;
+    }
+    .Title5 p {
+        font-size: 16px;
+    }.awards p span{
+        font-size: 8px;
+       
+    }
+    .awards p {
+        font-size: 7px;
+    }
+    .award p {
+        font-size: 10px;
+    }
+    .ForExhibitors div svg{
+        height: 58px;
+        width: 48px;
+    }
+    .Reserve p{
+        font-size: 14px;
+    }
+    .Reserve p span{
+        font-size: 12px;
+    }
+    .reserve p{
+        font-size: 10px;
+    }
+    .button1{
+        font-size: 10px;
+        width: 100px;
+    }
+    .contact{
+        font-size: 8px;
+    }
+    .contact p {
+        margin: 1% 0 1% 0;
+        padding:0 ; 
+    }
+    .contact svg {
+        width: 20px;
+        margin:2px 0; 
+        padding-right: 3px;
+    }
+    .contact span{
+        font-size: 8px;
+    }
+    .contact span span {
+        font-size: 8px;
+    }
 }
 
